@@ -1,15 +1,15 @@
 package net.pack.gitoverview;
 
 public class Person {
-    private String firstName;
+    private String ttName;
     private String secondName;
 
-    public String getFirstName() {
-        return firstName;
+    public String getTtName() {
+        return ttName;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setTtName(String ttName) {
+        this.ttName = ttName;
     }
 
     public String getSecondName() {
@@ -23,7 +23,7 @@ public class Person {
     @Override
     public String toString() {
         return "Person{" +
-                "firstName='" + firstName + '\'' +
+                "firstName='" + ttName + '\'' +
                 ", secondName='" + secondName + '\'' +
                 '}';
     }
